@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-Jun-2021, 9:56:19 AM
+    Author     : chetan
+*/
+
+.body{
+    background-color: #f4f3f2;
+}
+.bg-custom{
+    background-color: #303f9f;
+}
+.navbar .nav-item:hover .nav-link{
+    color: #303f9f;
+    background-color: white;
+    border-radius: 15px;
+}
+.top-navbar-custom{
+    border-top: 10px solid #303f9f;
+}
+.top-navbar-custom2{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .top-navbar-custom {
+        display: none;
+    }
+    .top-navbar-custom2{
+        display: block;
+    }
+}
+@media only screen and (max-width: 575px){
+    .top-navbar-custom2 h3{
+        font-size: 22px;
+    }
+    .top-navbar-custom2 button{
+        font-size: 12px;
+    }
+}
+.card-custom{
+    background: white;
+    text-decoration: none;
+}
+.card-custom:hover{
+    background-color: #ebe4e4;
+    text-decoration: none;
+}
+.card-link-a:hover{
+    text-decoration: none;
+}
+.thead-dark-custom{
+    background-color: #323640;
+    color: white;
+}
