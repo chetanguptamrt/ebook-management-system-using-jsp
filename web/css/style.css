@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31-May-2021, 9:18:17 PM
+    Author     : chetan
+*/
+
+.body{
+    background-color: #f4f3f2;
+}
+.bg-custom{
+    background-color: #303f9f;
+}
+.navbar .nav-item:hover .nav-link{
+    color: #303f9f;
+    background-color: white;
+    border-radius: 15px;
+}
+.top-navbar-custom{
+    border-top: 10px solid #303f9f;
+}
+.top-navbar-custom2{
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .top-navbar-custom {
+        display: none;
+    }
+    .top-navbar-custom2{
+        display: block;
+    }
+    .card-show{
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .top-navbar-custom2 h3{
+        font-size: 22px;
+    }
+    .top-navbar-custom2 button{
+        font-size: 12px;
+    }
+}
+.card-highlight:hover{
+    background-color: #ebe4e4;
+}
+.card-img-show{
+    max-height: 250px;
+    min-height: 100px;
+}
+.cover-img{
+    background-image: url("../img/bookCover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px 25px 70px 50px;
+}
+.cover-img-text{
+    font-weight: 700;
+    border-left: 8px solid #303f9f;
+    padding-left: 5px;
+}
