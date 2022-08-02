@@ -147,7 +147,7 @@ public class OrderDAO {
             StringBuilder mail2 = new StringBuilder("Hi,");
             mail2.append("\nOrder number - ").append(orderId);
             mail2.append(mail1);
-            mail2.append("\n\nThanks for ordering\nIf you are having any issue with your account, please don't hesitate to contact us.\n\nThanks!\nQuiz Maker");
+            mail2.append("\n\nThanks for ordering\nIf you are having any issue with your account, please don't hesitate to contact us.\n\nThanks!\nBook Store");
             String subject = "Order Confirm";
             
             Thread td = new Thread(new Email(email, subject, new String(mail2)));
