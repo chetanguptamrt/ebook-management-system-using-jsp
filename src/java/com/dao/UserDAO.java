@@ -55,7 +55,7 @@ public class UserDAO {
                                 + "http://localhost:8080/eBookManagementSystem/GetVerifiedUserServlet?email="+email+"&token="+otp+"\n\n"
                                 + "If you are having any issue with your account, please don't hesitate to contact us.\n\n"
                                 + "Thanks!\n"
-                                + "Quiz Maker";
+                                + "Book Store";
                         Thread td = new Thread(new Email(email, subject, body));
                         td.start();
                         String query5 = "insert into userverifications values(?,?)";
@@ -84,7 +84,7 @@ public class UserDAO {
                                 + "http://localhost:8080/eBookManagementSystem/GetVerifiedUserServlet?email="+email+"&token="+otp+"\n\n"
                                 + "If you are having any issue with your account, please don't hesitate to contact us.\n\n"
                                 + "Thanks!\n"
-                                + "Quiz Maker";
+                                + "Book Store";
                         Thread td = new Thread(new Email(email, subject, body));
                         td.start();
                         String query5 = "insert into userverifications values(?,?)";
