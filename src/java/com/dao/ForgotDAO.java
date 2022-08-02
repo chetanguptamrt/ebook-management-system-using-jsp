@@ -38,7 +38,7 @@ public class ForgotDAO {
                         + "Your OTP is : "+otp+"\n\n"
                         + "If you are having any issue with your account, please don't hesitate to contact us.\n\n"
                         + "Thanks!\n"
-                        + "Quiz Maker";
+                        + "Book Store";
                 Thread td = new Thread(new Email(email, subject, body));
                 td.start();
                 String query2 = "insert into forgot (email,otp) values(?,?)";
