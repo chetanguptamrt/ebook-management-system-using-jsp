@@ -19,7 +19,7 @@ public class DBConnect {
         try{
             if(conn==null){
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookmanagementsystem", "root", "Champ123@");
+                conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookmanagementsystem", "root", "Str0ng@Pass123");
             }
         } catch(ClassNotFoundException | SQLException e){
             e.printStackTrace();

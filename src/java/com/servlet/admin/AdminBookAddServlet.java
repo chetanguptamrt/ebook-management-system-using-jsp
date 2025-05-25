@@ -13,13 +13,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.MultipartConfig;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import javax.servlet.http.Part;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.MultipartConfig;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+import jakarta.servlet.http.Part;
 
 /**
  *
@@ -74,7 +74,7 @@ public class AdminBookAddServlet extends HttpServlet {
                     InputStream is = part.getInputStream();
                     byte[] data = new byte[is.available()];
                     is.read(data);
-                    String path = request.getRealPath("/")+"img"+File.separator+"books-img"+File.separator+f;
+                    String path = request.getServletContext().getRealPath("/")+"img"+File.separator+"books-img"+File.separator+f;
                     System.out.println(path);
                     try (FileOutputStream fos = new FileOutputStream(path)) {
                         fos.write(data);

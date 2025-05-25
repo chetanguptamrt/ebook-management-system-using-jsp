@@ -76,7 +76,7 @@
               <a class="nav-link mr-2" href="./oldBook.jsp"><i class="fas fa-book-open"></i> Old Book</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link mr-2" href="./contact.jsp"><i class="fas fa-phone-alt"></i> Contact Us</a>
+              <a class="nav-link mr-2" href="./sellBook.jsp"><i class="fas fa-rupee-sign"></i> Sell Your Books</a>
             </li>
             <%
                 if(ud!=null) {
@@ -91,6 +91,13 @@
             <%
                 }
             %>
+            
+            <li class="nav-item active">
+              <a class="nav-link mr-2" href="./contact.jsp"><i class="fas fa-phone-alt"></i> Contact Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link mr-2" href="./faq.jsp"><i class="fas fa-question"></i> FAQ</a>
+            </li>
       </ul>
     <%
         if(ud!=null) {

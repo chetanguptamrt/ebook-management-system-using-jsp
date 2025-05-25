@@ -32,7 +32,7 @@ public class Email implements Runnable {
     
     @Override
     public void run() {
-        Session session = EmailSession.getSession();
+        Session session = (Session) EmailSession.getSession();
         try {
             MimeMessage msg = new MimeMessage(session);
             msg.addHeader("Content-type", "text/HTML; charset=UTF-8");

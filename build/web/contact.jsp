@@ -41,12 +41,12 @@
             <dic class="row mt-3 mb-5">
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center mt-3">
                     <label class="contact-del"><i class="fas fa-phone-alt"></i></label> <br/>
-                    <a class="contact-del-link" href="tel:+91 9876543215">+91 9876543215</a> <br/>
+                    <a class="contact-del-link" href="tel:+91 9876543215">+91 6399718929</a> <br/>
                     <label>Support 24x7</label>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center mt-3">
                     <label class="contact-del"><i class="fas fa-envelope"></i></label> <br/>
-                    <a class="contact-del-link" href="mailTo:book@store.com">book@store.com</a> <br/>
+                    <a class="contact-del-link" href="mailTo:book@store.com">chetandevx@gmail.com</a> <br/>
                     <label>Support 24x7</label>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center mt-3">
